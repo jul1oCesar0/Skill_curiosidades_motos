@@ -1,0 +1,80 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancelar",
+            "olvídalo",
+            "no importa",
+            "detén esto",
+            "termina esto",
+            "quitar"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "ayuda",
+            "puedes ayudarme",
+            "necesito ayuda",
+            "qué puedo hacer"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "detener",
+            "salir",
+            "terminar",
+            "parar",
+            "finalizar"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estas",
+            "di hola mundo",
+            "di hola",
+            "dime hola mundo",
+            "dime hola"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": [
+            "no entiendo",
+            "no entendí eso",
+            "puedes repetir",
+            "di eso otra vez",
+            "qué dijiste",
+            "me lo perdí",
+            "no sé"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "FrasesIntent",
+          "samples": [
+            "un dato curioso sobre motocicletas",
+            "cual es un dato curioso sobre motocicletas",
+            "dime algo sobre motocicletas",
+            "quiero escuchar un dato sobre motocicletas",
+            "dame un dato sobre motocicletas",
+            "dime un dato sobre motocicletas"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "curiosidades motos"
+    }
+  }
+}

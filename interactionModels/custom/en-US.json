@@ -1,0 +1,81 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancel",
+            "never mind",
+            "forget it",
+            "stop this",
+            "end this",
+            "quit"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help",
+            "can you help me",
+            "I need help",
+            "what can I do"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "stop",
+            "exit",
+            "end",
+            "pause",
+            "finish"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": [
+            "I don\u0027t understand",
+            "I didn\u0027t get that",
+            "can you repeat",
+            "say that again",
+            "what did you say",
+            "I missed that",
+            "I don\u0027t know"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "FrasesIntent",
+          "samples": [
+            "what\u0027s a fun fact about motorcycles",
+            "tell me a fact about motorcycles",
+            "tell me a curious fact about motorcycles",
+            "tell me something about motorcycles",
+            "give me a motorcycle fact",
+            "tell me a motorcycle fact"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "motorcycle curiosities"
+    }
+  }
+}
